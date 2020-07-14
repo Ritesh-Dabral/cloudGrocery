@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groceries</title>
+
+    <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-firestore.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <h1>Cloud Groceries</h1>
+    
+    <div id="container">
+        <form id="formData">
+            <input type="text" name="name" placeholder="Grocery Item" required>
+            <input type="text" name="quan" placeholder="Quantity" required>
+            <input type="submit" value="Add Item">
+        </form>
+        <div id="warning"></div>
+        <hr/>
+        <ul id="getData"></ul>
+    </div>
+
+
+    <script src="fire.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

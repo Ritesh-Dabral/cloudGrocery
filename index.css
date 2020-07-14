@@ -1,0 +1,75 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: #e49fddad;
+    font-family: 'Baloo Da 2', cursive;
+}
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: white;
+    text-shadow: 2px 2px 5px #280e3a;
+    box-shadow: 1rem;
+}
+div#container {
+    margin: auto;
+    width: 50%;
+    background: white;
+    height: 100%;
+    max-height: inherit;
+    overflow: auto;
+    box-shadow: 5px 5px #8080807d;
+    border: solid gray 0.01rem;
+    border-radius: 5px 20px 5px 5px;
+}
+form#formData {
+    padding: 1rem 2rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    flex-shrink: 3;
+}
+hr {
+    margin: 1rem 1.5rem;
+    border-radius: 1px;
+    border-top: none;
+    border-bottom: solid #aba1a1e6 1px;
+}
+input {
+    border: solid #c11e1136 0.001rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+input:focus{
+    outline: solid #c11e1136 0.001rem;
+}
+input[type="text"] {
+    width: 40%;
+    max-width: inherit;
+}
+input[type="submit"] {
+    cursor: pointer;
+    background: rgba(14, 199, 14, 0.3);
+}
+ul {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+    padding: 1rem 1;
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin: 1rem;
+    border: solid #00000052 0.001rem;
+}
+li{
+    display: flex;
+    font-size: 1.5rem;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+li div {
+    color: red;
+    cursor: pointer;
+    margin: auto 0.5rem;
+}
